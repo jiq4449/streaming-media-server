@@ -1,0 +1,30 @@
+{
+  "name": "streaming-media-server",
+  "version": "1.0.0",
+  "engines": {
+    "node": "19.5.0",
+    "npm": "9.3.1"
+  },
+  "description": "Server that streams video and audio",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests Complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jiq4449/streaming-media-server.git"
+  },
+  "author": "Joshua Quinones",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jiq4449/streaming-media-server/issues"
+  },
+  "homepage": "https://github.com/jiq4449/streaming-media-server#readme",
+  "devDependencies": {
+    "eslint": "^8.33.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.27.5"
+  }
+}
